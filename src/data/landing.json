@@ -116,60 +116,67 @@
       { "label": "Vercel", "icon": "VercelIcon", "href": "https://vercel.com/" }
     ]
   },
+
   "pricingData": {
     "title": "Our Pricing",
     "tiers": [
       {
-        "title": "Standard Package",
-        "description": "Ideal for small businesses seeking a professional online presence.",
+        "title": "One-Time Website",
+        "description": "A one-time payment for a complete website, with optional add-ons.",
+        "price": {
+          "amount": "3800",
+          "period": "One-Time"
+        },
+        "features": [
+          "Custom Design & Development",
+          "$25/mo Hosting",
+          "$100 Per Page After 5",
+          "+$50/mo Unlimited Edits",
+          "+$250 To Add A Blog",
+          "24/7 Support",
+          "Lifetime Updates"
+        ],
+        "cta": "Get Started"
+      },
+      {
+        "title": "Monthly Website Plan",
+        "description": "A full-service website with ongoing support and updates.",
         "price": {
           "amount": "175",
           "period": "/month"
         },
         "features": [
           "Custom Design & Development",
-          "Responsive Layout",
-          "Basic SEO",
-          "Secure Hosting",
+          "Includes Hosting",
+          "$100 Per Page After 5",
+          "+$250 To Add A Blog",
           "Unlimited Edits",
-          "24/7 Support"
+          "24/7 Support",
+          "Lifetime Updates"
         ],
         "cta": "Get Started"
       },
       {
-        "title": "E-commerce Package",
-        "description": "Perfect for businesses looking to sell products or services online.",
-        "price": {
-          "amount": "250",
-          "period": "/month"
-        },
-        "features": [
-          "All Standard Package Features",
-          "E-commerce Functionality",
-          "Payment Gateway Integration",
-          "Product Management System",
-          "Advanced SEO"
-        ],
-        "cta": "Get Started"
-      },
-      {
-        "title": "Enterprise Package",
-        "description": "Comprehensive solution for large businesses with complex requirements.",
+        "title": "Custom Web Solutions",
+        "description": "Need something more advanced? Get in touch for a custom quote.",
         "price": {
           "amount": "Custom",
           "period": "Pricing"
         },
         "features": [
-          "All E-commerce Package Features",
-          "Custom Web Applications",
-          "Dedicated Account Manager",
-          "Priority Support",
-          "Tailored Solutions"
+          "Advanced Web Applications",
+          "Custom Integrations",
+          "Project Based Pricing",
+          "Scalable Solutions",
+          "API & Automation",
+          "Built to Your Needs",
+          "24/7 Support"
         ],
         "cta": "Contact Us"
       }
     ]
   },
+
   "footerData": {
     "logo": "Queen Creek Web Development",
     "description": "Professional, Affordable, and User-Friendly Websites for Small Businesses",

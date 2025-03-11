@@ -15,7 +15,7 @@ const { data, reversed } = Astro.props;
 <article
   class=`flex justify-between gap-x-32 flex-col mb-20 md:mb-40 ${reversed ? "md:flex-row-reverse" : "md:flex-row"}`
 >
-  <div class="md:w-3/4">
+  <div class="md:w-3/4 mb-10 md:mb-0">
     <img
       loading="lazy"
       src={ASSET_PREFIX + data.img}
