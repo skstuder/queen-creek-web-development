@@ -1,5 +1,6 @@
 ---
 import Background from "@/components/Background.astro";
+import TwSizeIndicator from "@/components/TwSizeIndicator.astro";
 import type { Meta } from "@/config/landing.interface";
 import "@fontsource-variable/rubik";
 
@@ -27,6 +28,7 @@ const ldJson = JSON.stringify(meta.ldJson);
     <script type="application/ld+json" set:html={ldJson} />
   </head>
   <body class="bg-white">
+    <TwSizeIndicator />
     <Background />
     <slot />
   </body>

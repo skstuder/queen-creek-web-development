@@ -3,7 +3,7 @@ export interface LandingPageData {
   headerData: HeaderData;
   heroData: HeroData;
   servicesData: ServicesData;
-  adventajesData: AdventajesData;
+  whyChooseUsData: whyChooseUsData;
   brandsData: BrandsData;
   pricingData: PricingData;
   footerData: FooterData;
@@ -33,12 +33,12 @@ export interface Service {
   description: string;
 }
 
-export interface AdventajesData {
+export interface whyChooseUsData {
   title: string;
-  adventajes: Adventaje[];
+  reasonsToChooseUs: reason[];
 }
 
-export interface Adventaje {
+export interface reason {
   title: string;
   description: string;
   img: string;

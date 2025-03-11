@@ -1,172 +1,178 @@
 {
   "meta": {
-    "title": "Luna Landing your perfect landing page",
-    "description": "Landing page template",
+    "title": "Queen Creek Web Development",
+    "description": "Professional, Custom-Coded Websites for Small Businesses in Queen Creek",
     "lang": "en",
     "charset": "UTF-8",
     "ldJson": {
       "@context": "http://schema.org",
       "@type": "Organization",
-      "name": "Luna Landing",
-      "description": "Fictitious company that seeks to elevate and simplify the lives of web developers.",
-      "url": "https://luna-landing-rust.vercel.app/",
+      "name": "Queen Creek Web Development",
+      "description": "Queen Creek Web Development specializes in crafting custom-coded, high-performance websites for small businesses. Our mission is to enhance your online presence and drive business growth through tailored web solutions.",
+      "url": "https://queencreekwebdevelopment.com/",
       "logo": "./public/favicon.svg",
       "contactPoint": {
         "@type": "ContactPoint",
-        "email": "luna-landing@luna.com",
-        "contactType": "Client Service"
+        "email": "info@queencreekwebdev.com",
+        "contactType": "Customer Service"
       },
       "sameAs": [
-        "https://www.twitter.com/yourpage",
-        "https://www.instagram.com/yourpage",
-        "https://www.linkedin.com/company/yourpage"
+        "https://www.twitter.com/queencreekwebdev",
+        "https://www.instagram.com/queencreekwebdev",
+        "https://www.linkedin.com/company/queencreekwebdev"
       ]
     }
   },
   "headerData": {
-    "logo": "Luna Landing",
+    "logo": "Queen Creek Web Development",
     "links": [
-      { "label": "About", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Prices", "href": "#" },
-      { "label": "FAQs", "href": "#" },
-      { "label": "Blog", "href": "#" }
+      { "label": "About", "href": "#about" },
+      { "label": "Services", "href": "#services" },
+      { "label": "Pricing", "href": "#pricing" },
+      { "label": "FAQs", "href": "#faqs" },
+      { "label": "Blog", "href": "#blog" },
+      { "label": "Contact", "href": "#contact" }
     ]
   },
   "heroData": {
-    "title": "Open Your Mind to the Universe: Welcome to",
-    "subTitle": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
-    "primaryCta": "Github Repo",
-    "secondaryCta": "See our pricing",
-    "highlightedTitle": "Luna Landing"
+    "subTitle": "Expertly crafted, high-performance websites designed to elevate your business.",
+    "title": "Empowering Local Businesses with Custom Web Solutions",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Explore Our Services",
+    "highlightedTitle": "Queen Creek Web Development"
   },
   "servicesData": {
-    "title": "Everything you need to build a website",
+    "title": "Our Services",
     "services": [
       {
-        "title": "Professional Templates",
+        "title": "Custom Website Design & Development",
         "icon": "DevIcon",
-        "description": "Our templates are crafted by experienced web designers, ensuring a modern and polished look for your site. From typography to element design, every detail is carefully considered to convey a professional image."
+        "description": "We specialize in hand-coded websites, ensuring optimal performance, security, and a unique design that aligns with your brand identity."
       },
       {
-        "title": "Integrated Accessibility",
-        "icon": "PlanetIcon",
-        "description": "We care about web accessibility and have integrated features to ensure your site is accessible to all users, including those with visual or motor disabilities. Our templates comply with WCAG accessibility standards to provide an inclusive experience for everyone."
+        "title": "Search Engine Optimization (SEO)",
+        "icon": "CheckIcon",
+        "description": "Our SEO strategies are tailored to improve your website's visibility on search engines, driving organic traffic and increasing conversions."
       },
+
       {
-        "title": "SEO-Optimized",
-        "icon": "FileIcon",
-        "description": "We understand the importance of your site being visible in search engines. That's why our templates are optimized for SEO, meaning they are structured and coded to be easily indexed by Google and other search engines, helping to improve your ranking in search results."
-      },
-      {
-        "title": "Easy Set up",
+        "title": "Website Maintenance & Support",
         "icon": "ConfigIcon",
-        "description": "With our templates, you don't need to be a web development expert to have an impressive site. They are easy to set up and customize, with intuitive options that allow you to change colors, fonts, page layout, and more with just a few clicks. Make your site stand out hassle-free!"
+        "description": "Our ongoing maintenance services ensure your website remains up-to-date, secure, and performs optimally at all times."
       }
     ]
   },
-  "adventajesData": {
-    "title": "    Unlock the Power of Luna Landing: Discover the Key Benefits",
-    "adventajes": [
+  "whyChooseUsData": {
+    "title": "Why Choose Us",
+    "reasonsToChooseUs": [
       {
-        "title": "Take Your Website to Perfection",
-        "description": "Our intuitive customization options empower you to create a website that stands out and resonates with your audience like never before. Say goodbye to cookie-cutter designs and hello to a website that truly reflects your vision and personality.",
-        "img": "template.webp",
-        "imageAlt": "this is an image about the template service adventajes",
-        "checks": ["Colors", "Fonts", "Layout"]
+        "title": "Custom-Coded Excellence",
+        "description": "Our websites are meticulously hand-coded, resulting in faster load times, enhanced security, and superior performance.",
+        "img": "custom_code.jpeg",
+        "imageAlt": "Custom-coded website development at Queen Creek Web Development",
+        "checks": ["No Templates", "High Performance", "Secure"]
       },
       {
-        "title": "Reach the Top of Search Rankings",
-        "description": "Elevate your online visibility with our SEO-optimized template. Built with search engine algorithms in mind, our template is designed to help your website climb to the top of search engine results pages (SERPs). From optimized meta tags and clean HTML structure to mobile responsiveness and fast loading times, every aspect of our template is geared towards maximizing your website's search engine performance. Increase your organic traffic, attract more visitors, and grow your online presence with ease.",
-        "img": "seo.webp",
-        "imageAlt": "this is an image about the SEO adventajes",
-        "checks": ["Search Visibility", "Organic Traffic", "Online Credibility"]
+        "title": "Transparent Pricing",
+        "description": "We offer straightforward pricing with no hidden fees, providing exceptional value for our comprehensive web development services.",
+        "img": "pricing.jpeg",
+        "imageAlt": "Transparent pricing at Queen Creek Web Development",
+        "checks": ["Clear Costs", "No Hidden Fees", "Great Value"]
+      },
+      {
+        "title": "Dedicated Support",
+        "description": "Our team is committed to providing ongoing support, ensuring your website evolves with your business and continues to meet your needs.",
+        "img": "support.jpeg",
+        "imageAlt": "Dedicated support at Queen Creek Web Development",
+        "checks": ["24/7 Support", "Unlimited Edits", "Client-Focused"]
       }
     ]
   },
   "brandsData": {
-    "title": "Integration with Leading Technologies",
-    "description": "Effortlessly integrate with leading technologies. Our platform seamlessly supports industry-standard tools and frameworks, enabling you to stay ahead of the curve and maximize productivity. Explore endless possibilities with our comprehensive compatibility features",
+    "title": "Technologies We Utilize",
+    "description": "We leverage cutting-edge technologies to build websites that are robust, scalable, and easy to manage.",
     "brands": [
-      { "label": "React", "icon": "ReactIcon", "href": "https://react.dev/" },
-      { "label": "Vue", "icon": "VueIcon", "href": "https://vuejs.org/" },
       {
-        "label": "Svelte",
-        "icon": "SvelteIcon",
-        "href": "https://svelte.dev/"
+        "label": "HTML5",
+        "icon": "Html5Icon",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
       },
       {
-        "label": "Solid",
-        "icon": "SolidIcon",
-        "href": "https://www.solidjs.com/"
+        "label": "CSS3",
+        "icon": "Css3Icon",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3"
       },
       {
-        "label": "Vercel",
-        "icon": "VercelIcon",
-        "href": "https://vercel.com/"
+        "label": "JavaScript",
+        "icon": "JsIcon",
+        "href": "https://developer.mozilla.org/en-US/docs/Web/JavaScript"
       },
+      { "label": "React", "icon": "ReactIcon", "href": "https://reactjs.org/" },
       {
-        "label": "Netlify",
-        "icon": "NetlifyIcon",
-        "href": "https://www.netlify.com/"
-      }
+        "label": "Node.js",
+        "icon": "NodejsIcon",
+        "href": "https://nodejs.org/"
+      },
+      { "label": "Vercel", "icon": "VercelIcon", "href": "https://vercel.com/" }
     ]
   },
   "pricingData": {
     "title": "Our Pricing",
     "tiers": [
       {
-        "title": "Starter",
-        "description": "Best option for personal use & for your next project.",
+        "title": "Standard Package",
+        "description": "Ideal for small businesses seeking a professional online presence.",
         "price": {
-          "amount": "Free"
-        },
-        "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
-        ],
-        "cta": "Get started"
-      },
-      {
-        "title": "Professional",
-        "description": "Relevant for multiple users, extended & premium support.",
-        "price": {
-          "amount": "$29",
+          "amount": "175",
           "period": "/month"
         },
         "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
+          "Custom Design & Development",
+          "Responsive Layout",
+          "Basic SEO",
+          "Secure Hosting",
+          "Unlimited Edits",
+          "24/7 Support"
         ],
-        "cta": "Get started"
+        "cta": "Get Started"
       },
       {
-        "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights.",
+        "title": "E-commerce Package",
+        "description": "Perfect for businesses looking to sell products or services online.",
         "price": {
-          "amount": "$59",
+          "amount": "250",
           "period": "/month"
         },
         "features": [
-          "feature 1",
-          "feature 2",
-          "feature 3",
-          "feature 4",
-          "feature 5"
+          "All Standard Package Features",
+          "E-commerce Functionality",
+          "Payment Gateway Integration",
+          "Product Management System",
+          "Advanced SEO"
         ],
-        "cta": "Get started"
+        "cta": "Get Started"
+      },
+      {
+        "title": "Enterprise Package",
+        "description": "Comprehensive solution for large businesses with complex requirements.",
+        "price": {
+          "amount": "Custom",
+          "period": "Pricing"
+        },
+        "features": [
+          "All E-commerce Package Features",
+          "Custom Web Applications",
+          "Dedicated Account Manager",
+          "Priority Support",
+          "Tailored Solutions"
+        ],
+        "cta": "Contact Us"
       }
     ]
   },
   "footerData": {
-    "logo": "Luna Landing",
-    "description": "Discover the Beauty of the Cosmos: Explore the Infinite Wonders of Space with Us",
+    "logo": "Queen Creek Web Development",
+    "description": "Professional, Affordable, and User-Friendly Websites for Small Businesses",
     "links": [
       { "label": "About", "href": "/" },
       { "label": "Services", "href": "/" },
@@ -175,10 +181,10 @@
       { "label": "Contact", "href": "/" }
     ],
     "socials": [
-      { "icon": "FacebookIcon", "href": "/" },
-      { "icon": "InstagramIcon", "href": "/" },
-      { "icon": "TwitterIcon", "href": "/" },
-      { "icon": "GithubIcon", "href": "/" }
+      { "icon": "FacebookIcon", "href": "https://www.facebook.com/yourpage" },
+      { "icon": "InstagramIcon", "href": "https://www.instagram.com/yourpage" },
+      { "icon": "TwitterIcon", "href": "https://www.twitter.com/yourpage" },
+      { "icon": "GithubIcon", "href": "https://www.github.com/yourpage" }
     ]
   }
 }

@@ -1,0 +1,24 @@
+---
+import SectionTitle from "@/components/SectionTitle.astro";
+import SideBySide from "@/components/SideBySide.astro";
+import type { whyChooseUsData } from "@/config/landing.interface";
+
+interface Props {
+  data: whyChooseUsData;
+}
+
+const { data } = Astro.props;
+---
+
+<section id="why-choose-us-section" class="flex flex-col mb-20 gap-y-28">
+  <SectionTitle>
+    {data.title}
+  </SectionTitle>
+  <div>
+    {
+      data.reasonsToChooseUs.map((reason, index: number) => (
+        <SideBySide data={reason} reversed={(index + 1) % 2 === 0} />
+      ))
+    }
+  </div>
+</section>

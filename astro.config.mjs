@@ -1,13 +1,20 @@
 import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import { defineConfig } from "astro/config";
+import viteImagemin from "vite-plugin-imagemin";
 
 import robotsTxt from "astro-robots-txt";
 
 // https://astro.build/config
 export default defineConfig({
-  site: import.meta.env.DEV
-    ? "http://localhost:4321"
-    : "https://luna-landing-rust.vercel.app/",
+  vite: {
+    plugins: [
+      viteImagemin({
+        webp: {
+          quality: 80, // Adjust quality as needed
+        },
+      }),
+    ],
+  },
   integrations: [tailwind(), sitemap(), robotsTxt()],
 });

@@ -11,24 +11,42 @@ const { data } = Astro.props;
 
 <header
   id="navbar"
-  class="w-full transition duration-300 justify-center fixed h-20 z-50 hidden md:flex"
+  class="w-full transition duration-300 justify-between fixed h-20 z-50 flex items-center"
 >
-  <nav aria-label="Main Navigation" class="flex flex-row items-center w-3/4">
+  <nav
+    aria-label="Main Navigation"
+    class="flex flex-row justify-between md:justify-around items-center w-full mx-4 md:mx-0"
+  >
     <div class="text-nowrap">
-      <Action as="a" class="text-xl" href="#">{data.logo}</Action>
+      <Action as="a" class="text-xl" href="/">{data.logo}</Action>
     </div>
-    <ul class="flex flex-row w-full justify-center gap-x-14">
+    <ul
+      class="flex-col hidden md:flex absolute shadow top-20 bg-white md:static md:bg-transparent md:shadow-none right-0 text-center w-full md:flex-row md:w-fit md:text-sm lg:text-base md:gap-x-6 lg:gap-x-14"
+    >
       {
         data.links.map((item) => (
-          <li class="text-lg hover:scale-110 hover:opacity-80">
-            <Action as="a" href={item.href}>
+          <li class="text-lg hover:scale-110 hover:opacity-80 py-4 md:py-0">
+            <Action
+              as="a"
+              href={item.href}
+              onclick="document.querySelector('ul').classList.add('hidden')"
+            >
               {item.label}
             </Action>
           </li>
         ))
       }
     </ul>
-    <span></span>
+    <div class="md:hidden flex items-center">
+      <button
+        id="menu-button"
+        onclick="document.querySelector('ul').classList.toggle('hidden')"
+        class="text-3xl focus:outline-none"
+        aria-label="Toggle Menu"
+      >
+        &#9776;
+      </button>
+    </div>
   </nav>
 </header>
 

@@ -2,10 +2,10 @@
 import Icon from "@/components/Icon.astro";
 import IconWrapper from "@/components/IconWrapper.astro";
 import { ASSET_PREFIX } from "@/config/constants";
-import type { Adventaje } from "@/config/landing.interface";
+import type { reason } from "@/config/landing.interface";
 
 interface Props {
-  data: Adventaje;
+  data: reason;
   reversed: boolean;
 }
 
@@ -16,7 +16,12 @@ const { data, reversed } = Astro.props;
   class=`flex justify-between gap-x-32 flex-col mb-20 md:mb-40 ${reversed ? "md:flex-row-reverse" : "md:flex-row"}`
 >
   <div class="md:w-3/4">
-    <img src={ASSET_PREFIX + data.img} alt={data.imageAlt} class="w-fit" />
+    <img
+      loading="lazy"
+      src={ASSET_PREFIX + data.img}
+      alt={data.imageAlt}
+      class="w-fit"
+    />
   </div>
   <div class="flex flex-col md:w-5/6 gap-y-8">
     <h3 class="text-xl md:text-4xl">{data.title}</h3>
